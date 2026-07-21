@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="octoclaw-labs" src="./assets/banner.svg" width="800">
+</p>
+
 # OctoClaw Labs
 
 [![Rust](https://img.shields.io/badge/rust-2021-orange?logo=rust)](https://www.rust-lang.org)
