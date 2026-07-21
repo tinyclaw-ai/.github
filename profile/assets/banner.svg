@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="OctoClaw Labs banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="50%" stop-color="#3b1f5e"/>
+      <stop offset="100%" stop-color="#581c87"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f0abfc"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#3b1f5e" stroke-width="0.5" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <!-- Octopus tentacles (8 wavy lines spreading from center) -->
+  <g transform="translate(1050, 160)" opacity="0.30" stroke="#c084fc" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M 0,0 C 20,-30 40,-40 60,-50"/>
+    <path d="M 0,0 C 30,-20 50,-25 80,-30"/>
+    <path d="M 0,0 C 30,20 50,25 80,30"/>
+    <path d="M 0,0 C 20,30 40,40 60,50"/>
+    <path d="M 0,0 C -20,-30 -40,-40 -60,-50"/>
+    <path d="M 0,0 C -30,-20 -50,-25 -80,-30"/>
+    <path d="M 0,0 C -30,20 -50,25 -80,30"/>
+    <path d="M 0,0 C -20,30 -40,40 -60,50"/>
+  </g>
+
+  <!-- Central head circle -->
+  <g transform="translate(1050, 160)">
+    <circle r="40" fill="#7c3aed" opacity="0.85"/>
+    <circle r="40" fill="none" stroke="#c084fc" stroke-width="2"/>
+    <circle cx="-12" cy="-8" r="4" fill="#fef3c7"/>
+    <circle cx="12" cy="-8" r="4" fill="#fef3c7"/>
+  </g>
+
+  <!-- Title -->
+  <text x="100" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="68" font-weight="800" fill="url(#title)" letter-spacing="-2">OctoClaw Labs</text>
+
+  <!-- Subtitle -->
+  <text x="104" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="22" font-weight="400" fill="#e9d5ff" letter-spacing="0.5">
+    AI Agent execution engine · cloud to edge
+  </text>
+
+  <!-- Tagline -->
+  <text x="104" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="16" font-weight="300" fill="#c084fc" letter-spacing="1">
+    Zero-trust · Streaming · Sub-second · MCP-native · Multi-language
+  </text>
+
+  <!-- Partme-AI badge -->
+  <g transform="translate(104, 250)">
+    <rect x="0" y="0" width="240" height="34" rx="17" fill="#6366f1" opacity="0.95"/>
+    <text x="120" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+          font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">
+      Part of partme-ai ecosystem
+    </text>
+  </g>
+
+  <rect x="0" y="316" width="1200" height="4" fill="url(#accent)"/>
+</svg>
