@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="octoclaw-labs" src="./assets/banner.svg" width="800">
+  <img alt="OctoClaw Labs Logo" src="./assets/logo-512.png" width="220">
 </p>
 
 # OctoClaw Labs
